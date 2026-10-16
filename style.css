@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
 img {
     max-width: 100%;
 }
+
 .sec1 {
-    padding: 0 70px;
-    background-image: url(images/Rectangle\ 20.png);
+    padding: 0 50px;
+    background-image: url(image/Rectangle\ 20.png);
     width: 1228px;
     height: 1024px;
     background-position: center;
@@ -17,70 +20,80 @@ img {
     background-size: cover;
     object-fit: cover;
 }
+
 nav {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     gap: 150px;
     padding-top: 20px;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     padding-bottom: 170px;
 }
-.moviee a{
-     font-family: "Oswald", sans-serif;
-     font-size: 36px;
-     font-weight: 400;
-     color: #FFFFFF;
-     text-decoration: none;
+
+.moviee a {
+    font-family: "Oswald", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-decoration: none;
 }
+
 .nav-2 {
     display: flex;
     flex-direction: row;
     gap: 26px;
 }
+
 .nav2a {
     display: flex;
     flex-direction: row;
     gap: 30px;
 }
+
 .home {
-     font-family: "Oswald", sans-serif;
-     font-size: 16px;
-     font-weight: 400;
-     color: #FFB628;
-     text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFB628;
+    text-decoration: none;
 }
+
 .nav2 {
     font-family: "Oswald", sans-serif;
-     font-size: 16px;
-     font-weight: 400;
-     color: #FFF8EA;
-     text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFF8EA;
+    text-decoration: none;
 }
+
 .nav-2b a {
     display: flex;
     flex-direction: row;
-     border-radius: 26px;
-     background-color: #bfb4b3;
-     width: 160px;
-     height: 40px;
-     gap: 85px;
-     padding: 10px;
-     align-items: center;
-     text-decoration: none;
+    border-radius: 26px;
+    background-color: #bfb4b3;
+    width: 160px;
+    height: 40px;
+    gap: 85px;
+    padding: 10px;
+    align-items: center;
+    text-decoration: none;
 }
+
 .nav-2b img {
     width: 24px;
     height: 24px;
 }
+
 .nav-2b a span {
     font-family: "Oswald", sans-serif;
-     font-size: 14px;
-     font-weight: 400;
-     text-decoration: none;
-     color: #FFFFFF;
-     height: 21px;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #FFFFFF;
+    height: 21px;
 }
+
 .nav3 {
     border-radius: 20px;
     width: 120px;
@@ -90,52 +103,59 @@ nav {
     text-align: center;
     height: 40px;
 }
+
 .nav3 a {
     font-family: "Oswald", sans-serif;
-     font-size: 20px;
-     font-weight: 400;
-     text-decoration: none;
-     color: #FFFFFF;
-     height: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #FFFFFF;
+    height: 30px;
 }
+
 .sec1-main h1 {
     font-family: "Oswald", sans-serif;
-     font-size: 64px;
-     font-weight: 600;
-     text-decoration: none;
-     color: #FFFFFF;
-     height: 95px;
-     padding-bottom: 30px;
+    font-size: 64px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #FFFFFF;
+    height: 95px;
+    padding-bottom: 30px;
 }
+
 .sec1-main p {
     font-family: "Oswald", sans-serif;
-     font-size: 16px;
-     font-weight: 400;
-     text-decoration: none;
-     color: #FFFFFF;
-     width: 880px;
-     padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #FFFFFF;
+    width: 880px;
+    padding-bottom: 20px;
 }
+
 .nav-icons {
     display: flex;
     gap: 30px;
     width: 372px;
 }
+
 .nav-icons span {
- display: flex;
+    display: flex;
     gap: 4px;
     align-items: center;
-     font-family: "Oswald", sans-serif;
-     font-size: 20px;
-     font-weight: 400;
-     text-decoration: none;
-     color: #FFFFFF;
-     width: 880px;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #FFFFFF;
+    width: 880px;
 }
+
 .nav-icons img {
     width: 30px;
     height: 30px;
 }
+
 .sec1-cards {
     display: flex;
     padding-top: 150px;
@@ -143,14 +163,17 @@ nav {
     justify-content: flex-end;
     align-items: center;
 }
+
 .sec1-card1 {
     height: 251px;
     border-radius: 26.28px;
 }
+
 .sec1-card {
     height: 157px;
     border-radius: 16.44px;
 }
+
 .sec1-buttons {
     display: flex;
     gap: 20px;
@@ -159,35 +182,306 @@ nav {
     padding-top: 70px;
     align-items: center;
 }
+
 .span1 {
     display: flex;
     gap: 5px;
     border-radius: 20px;
     background-color: #FFB628;
-     font-family: "Oswald", sans-serif;
-     font-size: 20px;
-     font-weight: 400;
-     color: #FFFFFF;
-     width: 150px;
-     padding: 10px;
-     height: 45px;
-     align-items: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    width: 150px;
+    padding: 10px;
+    height: 45px;
+    align-items: center;
 }
+
 .sec1-buttons span img {
     height: 24px;
     width: 24px;
 }
+
 .span2 {
     border: 2px solid #FFF8EA;
     color: #FFF8EA;
     font-family: "Oswald", sans-serif;
-     font-size: 20px;
-     font-weight: 400;
-     width: 150px;
-     padding: 10px;
-     height: 45px;
-     align-items: center;
-     display: flex;
+    font-size: 20px;
+    font-weight: 400;
+    width: 150px;
+    padding: 10px;
+    height: 45px;
+    align-items: center;
+    display: flex;
     gap: 5px;
     border-radius: 20px;
+}
+
+.sec2 {
+    padding: 0 50px;
+    background-color: #0b0b0f;
+    height: 404.79px;
+}
+
+.sec2 h2 {
+    padding-top: 10px;
+    margin-bottom: 20px;
+    height: 56px;
+    font-family: "Oswald", sans-serif;
+    font-size: 38px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.sec-2cards {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    overflow-y: hidden;
+}
+
+.sec-2cards::-webkit-scrollbar {
+    display: none;
+}
+
+.sec-2cards h3 {
+    padding-left: 30px;
+    font-family: "Oswald", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: #FFF8EA;
+}
+
+.sec-2card {
+    background-color: #3F3F3F;
+    border-radius: 20px;
+    height: 310px;
+    background-image: url(image/Genresline.png);
+    width: 355px;
+    background-size: 420px 280px;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.card1-img {
+    position: relative;
+    rotate: 0.96 deg;
+    height: 190px;
+    width: 110px;
+    left: 100px;
+    top: 55px;
+    z-index: 2;
+    transition: transform 0.5s ease;
+}
+
+.card1-img:hover {
+    transform: translateY(-30px);
+}
+
+.card1-img:hover~.card2-img {
+    transform: translate(-81px, 30px);
+}
+
+.card1-img:hover~.card3-img {
+    transform: translate(126px, -180px);
+}
+
+.card2-img {
+    rotate: 29.78 deg;
+    width: 150px;
+    height: 210px;
+    transform: translate(-81px, 63.5px);
+    transition: transform 0.5s ease;
+}
+
+.card2-img:hover {
+    transform: translate(-81px, 30px);
+}
+
+.card3-img {
+    rotate: -31.2 deg;
+    transform: translate(126px, -150px);
+    width: 150px;
+    height: 210px;
+    transition: transform 0.5s ease;
+}
+
+.card3-img:hover {
+    transform: translate(126px, -180px);
+}
+
+.action1 {
+    position: relative;
+    rotate: 0.96 deg;
+    top: 62px;
+    left: 110px;
+    width: 110px;
+    height: 190px;
+    transition: transform 0.5s ease;
+    z-index: 2;
+}
+
+.action1:hover {
+    transform: translateY(-30px);
+}
+
+.action1:hover~.action2 {
+    transform: translate(-70px, 37px);
+}
+
+.action1:hover~.action3 {
+    transform: translate(126px, -170px);
+}
+
+.action2 {
+    width: 150px;
+    transform: translate(-70px, 65px);
+    height: 202px;
+    transition: transform 0.5s ease;
+    rotate: 29.78 deg;
+}
+
+.action2:hover {
+    transform: translate(-70px, 35px);
+}
+
+.action3:hover {
+    transform: translate(126px, -170px);
+}
+
+.action3 {
+    rotate: -31.2 deg;
+    transform: translate(126px, -140px);
+    width: 170px;
+    height: 210px;
+}
+
+.anime1 {
+    position: relative;
+    rotate: 0.96 deg;
+    top: 62px;
+    left: 110px;
+    width: 120px;
+    height: 190px;
+    transition: transform 0.5s ease;
+    z-index: 2;
+}
+
+.anime1:hover {
+    transform: translateY(-30px);
+}
+
+.anime1:hover~.anime2 {
+    transform: translate(-85px, 35px);
+}
+
+.anime1:hover~.anime3 {
+    transform: translate(130px, -180px);
+}
+
+.anime2 {
+    width: 170px;
+    transform: translate(-85px, 65px);
+    height: 205px;
+    transition: transform 0.5s ease;
+    rotate: 29.78 deg;
+}
+
+.anime2:hover {
+    transform: translate(-85px, 35px);
+}
+
+.anime3 {
+    rotate: -31.2 deg;
+    width: 170px;
+    transition: transform 0.5s ease;
+    transform: translate(130px, -150px);
+    height: 210px;
+}
+
+.anime3:hover {
+    transform: translate(130px, -180px);
+}
+
+.rom1 {
+    position: relative;
+    top: 80px;
+    left: 110px;
+    width: 120px;
+    height: 190px;
+    transition: transform 0.5s ease;
+    z-index: 2;
+    border-radius: 20px;
+    rotate: 0.96deg;
+}
+
+.rom2 {
+    width: 110px;
+    height: 190px;
+    transition: transform 0.5s ease;
+    transform: translate(-87px, 33px);
+    border-radius: 20px;
+    rotate: -31.2deg;
+}
+
+.rom3 {
+    width: 120px;
+    transform: translate(69px, -185px);
+    transition: transform 0.5s ease;
+    height: 210px;
+    rotate: 29.78deg;
+    border-radius: 20px;
+}
+
+.together img:nth-child(2) {
+    width: 600px;
+    height: 310px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.together {
+    border: 2px solid red;
+    width: 300px;
+    height: 315px;
+    position: relative;
+    transition: width 0.5s ease;
+}
+
+.together img:nth-child(2) {
+    border: 2px solid yellow;
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    /* transition: opacity 0.5s ease; */
+}
+
+.sec3-card:hover .together {
+    width: 600px;
+}
+
+.sec3-card:hover .together img:nth-child(2) {
+    opacity: 1;
+}
+.sec3 {
+    background-color: #0b0b0f;
+    padding: 50px;
+}
+.sec3 h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 38px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    height: 56px;
+}
+.sec3-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
 }
