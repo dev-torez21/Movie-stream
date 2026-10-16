@@ -446,23 +446,20 @@ nav {
 }
 
 .together {
-    border: 2px solid red;
-    width: 300px;
+    width: 262px;
     height: 315px;
     position: relative;
-    transition: width 0.5s ease;
 }
 
 .together img:nth-child(2) {
-    border: 2px solid yellow;
     position: absolute;
     inset: 0;
     opacity: 0;
-    /* transition: opacity 0.5s ease; */
+    transition: opacity 0.5s ease;
 }
 
 .sec3-card:hover .together {
-    width: 600px;
+    width: 500px;
 }
 
 .sec3-card:hover .together img:nth-child(2) {
@@ -471,6 +468,16 @@ nav {
 .sec3 {
     background-color: #0b0b0f;
     padding: 50px;
+}
+.hostage {
+    width: 262px;
+    height: 315px;
+    border-radius: 20px;
+}
+.kpop {
+     width: 262px;
+    height: 315px;
+    border-radius: 20px;
 }
 .sec3 h2 {
     font-family: "Oswald", sans-serif;
@@ -483,5 +490,23 @@ nav {
 .sec3-cards {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     gap: 30px;
+       overflow-x: scroll;
+    scrollbar-width: none;
+    overflow-y: hidden;
+}
+.sec-2cards::-webkit-scrollbar {
+    display: none;
+}
+
+.sec3-card-text{
+    position: absolute;
+    inset:0;
+    padding-top: 70px;
+    opacity: 0;
+    padding-left: 15px;
+}
+.sec3-card:hover .sec3-card-text {
+    opacity: 1;
 }
