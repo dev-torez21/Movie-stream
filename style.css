@@ -520,7 +520,7 @@ nav {
     overflow-y: hidden;
 }
 
-.sec-2cards::-webkit-scrollbar {
+.sec-3cards::-webkit-scrollbar {
     display: none;
 }
 
@@ -534,4 +534,53 @@ nav {
 
 .sec3-card:hover .sec3-card-text {
     opacity: 1;
+}
+.sec4 {
+   background-color: #0b0b0f;
+    padding: 50px; 
+}
+.sec4 h2 {
+   font-family: "Oswald", sans-serif;
+    font-size: 38px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    height: 56px; 
+}
+.sec4-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    overflow-y: hidden;
+}
+.sec4-card {
+    display: flex;
+    gap: 20px;
+    background-image: url(image/yellow.png);
+    width: 215px;
+    height: 204px;
+    border-radius: 100%;
+    position: relative;
+    z-index: 1;
+}
+.sec4-card p {
+     font-family: "Oswald", sans-serif;
+    font-size: 200px;
+    font-weight: 700;
+      color: transparent;
+       -webkit-text-stroke: 2px #FFF8EA;
+        margin-right: -15px;
+        user-select: none;
+        line-height: 100%;
+    top: 30px;
+        height: 296px;
+        
+}
+.sec4-card .together {
+    height: 412px;
+    /* position: absolute; */
+    top: 30px;
 }
