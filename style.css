@@ -13,7 +13,8 @@ img {
 .sec1 {
     padding: 0 50px;
     background-image: url(image/Rectangle\ 20.png);
-    width: 1228px;
+    width: 100%;
+    max-width: 1400px;
     height: 1024px;
     background-position: center;
     background-repeat: no-repeat;
