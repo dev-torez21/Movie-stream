@@ -73,9 +73,10 @@ nav {
     flex-direction: row;
     border-radius: 26px;
     background-color: #bfb4b3;
-    width: 160px;
+    width: 200px;
     height: 40px;
-    gap: 85px;
+    gap: 100px;
+    justify-content: space-between;
     padding: 10px;
     align-items: center;
     text-decoration: none;
